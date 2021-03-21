@@ -1,0 +1,44 @@
+*{margin:0;padding:0;box-sizing:border-box;background-color: #2D4153;}
+
+.navigation-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    border-bottom: 3px solid #000000;
+    width: 100%;
+    box-shadow: 0px 3px 3px  #000000;
+    background-color: #2D4153;
+}
+.navbar-buttons{
+    margin-right: 30px;
+}
+.list-items{
+    display: inline-block;
+    align-items: center;
+    padding: 20px 25px;
+    font-family: 'Ford Antenna Regular XCnd', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.ford-logo-image{
+    width: 100px;
+}
+.logo{
+    margin-left: 30px;
+}
+.tourneo-connect-image{
+    width: 100%;
+}
+.list-items:hover{
+    background-color: #13202c;
+    transition-delay: 10ms;
+    transition-duration: 460ms;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+}
+.title{
+    padding: 30px;
+    margin: 0px;
+    background-color: #38709E;
+}
